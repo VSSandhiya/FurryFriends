@@ -1,0 +1,175 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to right, #fdf6e3, #fce6f0);
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  padding: 1rem;
+  text-align: center;
+  color: #6b3e00;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #fcd34d, #fbbf24);
+  padding: 1rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration:  none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #9a3412;
+}
+
+section {
+  padding: 1rem;
+  text-align: center;
+}
+
+.breeds, .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.breed-card, .animal {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.breed-card:hover, .animal:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.breed-card img, .animal img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.breed-card h3, .animal h3 {
+  margin-top: 0.7rem;
+  color: #d97706;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.contact-info, .contact-form {
+  flex: 1 1 300px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form input[type="submit"] {
+  background: linear-gradient(to right, #34d399, #3b82f6);
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+  background: linear-gradient(to right, #059669, #2563eb);
+}
+
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+  color: #555;
+}
+
+form input[type="submit"] {
+  background: linear-gradient(to right, #f59e0b, #ef4444);
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: linear-gradient(to right, #d97706, #dc2626);
+}
+
+footer {
+  background-color: #f3f4f6;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  color: #555;
+}

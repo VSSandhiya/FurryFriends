@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pet Care Info - Furry Friends</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #d1e0ad;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2e7d32;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #00695c;
+      font-weight: bold;
+    }
+
+    section {
+      margin-bottom: 50px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .dog {
+      background-color: #fff3e0;
+      color: #4e342e;
+    }
+
+    .cat {
+      background-color: #fce4ec;
+      color: #6a1b9a;
+    }
+
+    .bird {
+      background-color: #e1f5fe;
+      color: #0277bd;
+    }
+
+    .rabbit {
+      background-color: #f3e5f5;
+      color: #6a1b9a;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .food-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .food-item {
+      text-align: center;
+    }
+
+    .food-item img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .food-item img:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head> 
+<body>
+
+  <h1>Pet Care - 🐾 Furry Friends 🐾</h1>
+
+  <nav>
+    <a href="#dog">Dog</a> |
+    <a href="#cat">Cat</a> |
+    <a href="#bird">Bird</a> |
+    <a href="#rabbit">Rabbit</a> |
+
+  </nav>
+
+  <!-- Dog Section -->
+  <section id="dog" class="dog">
+    <h2>🐶 Dog Care & Food</h2>
+    <p>Dogs are loyal, playful, and need regular care.</p>
+    <h3>Common Foods:</h3>
+    <div class="food-list">
+      <div class="food-item">
+        <p>Dry Kibble</p>
+        <img src="images/pexels-mart-production-8434641.jpg" alt="Dry Kibble">
+      </div>
+      <div class="food-item">
+        <p>Wet Canned Food</p>
+        <img src="images/Wetdog food.jpeg" alt="Wet Dog Food">
+      </div>
+      <div class="food-item">
+        <p>Boiled Chicken & Rice</p>
+        <img src="images/chickenand rice.jpeg" alt="Chicken and Rice">
+      </div>
+      <div class="food-item">
+        <p>Carrots & Apples</p>
+        <img src="images/Apple-Carrot-Dog-Treats1-e1410820061548.webp" alt="Carrots and Apples">
+      </div>
+    </div>
+    <p>Ensure clean water, regular walks, and vaccinations for a healthy dog.</p>
+  </section>
+
+  <!-- Cat Section -->
+  <section id="cat" class="cat">
+    <h2>🐱 Cat Care & Food</h2>
+    <p>Cats are independent, clean, and loving companions.</p>
+    <h3>Common Foods:</h3>
+    <div class="food-list">
+      <div class="food-item">
+        <p>Dry Cat Food</p>
+        <img src="images/drycatfood.jpg" alt="Dry Cat Food">
+      </div>
+      <div class="food-item">
+        <p>Wet Pouches</p>
+        <img src="images/wetpouchfood.jpeg" alt="Wet Pouch Food">
+      </div>
+      <div class="food-item">
+        <p>Boiled Fish</p>
+        <img src="images/boiledfish.jpg" alt="Boiled Fish">
+      </div>
+      <div class="food-item">
+        <p>Cat Treats</p>
+        <img src="images/cattreats.jpeg" alt="Cat Treats">
+      </div>
+    </div>
+    <p>Keep a litter box, scratching post, and clean water available.</p>
+  </section>
+
+  <!-- Bird Section -->
+  <section id="bird" class="bird">
+    <h2>🐦 Bird Care & Food</h2>
+    <p>Birds are colorful, cheerful, and need a safe environment.</p>
+    <h3>Common Foods:</h3>
+    <div class="food-list">
+      <div class="food-item">
+        <p>Seeds & Grains</p>
+        <img src="images/seeds.jpeg" alt="Bird Seeds">
+      </div>
+      <div class="food-item">
+        <p>Apples & Bananas</p>
+        <img src="C:\Users\lenovo\Downloads\furry_friends_site\images\can_parrots_eat_banana.webp" alt="Fruits">
+      </div>
+      <div class="food-item">
+        <p>Spinach & Carrots</p>
+        <img src="C:\Users\lenovo\Downloads\furry_friends_site\images\birdvegetabeles.jpeg" alt="Vegetables">
+      </div>
+      <div class="food-item">
+        <p>Bird Pellets</p>
+        <img src="images/birdpellets.jpg" alt="Bird Pellets">
+      </div>
+    </div>
+    <p>Keep their cage clean and provide toys and perches.</p>
+  </section>
+
+  <!-- Rabbit Section -->
+  <section id="rabbit" class="rabbit">
+    <h2>🐰 Rabbit Care & Food</h2>
+    <p>Rabbits are gentle, adorable pets that enjoy hopping around.</p>
+    <h3>Common Foods:</h3>
+    <div class="food-list">
+      <div class="food-item">
+        <p>Fresh Hay</p>
+        <img src="images/hay.jpeg" alt="Hay">
+      </div>
+      <div class="food-item">
+        <p>Romaine Lettuce</p>
+        <img src="images/lettuice.jpeg" alt="Lettuce">
+      </div>
+      <div class="food-item">
+        <p>Carrot Tops & Parsley</p>
+        <img src="images/carrot tops.jpeg" alt="Carrot Tops">
+      </div>
+      <div class="food-item">
+        <p>Rabbit Pellets</p>
+        <img src="images/rabbit pellets.jpg" alt="Rabbit Pellets">
+      </div>
+    </div>
+    <p>They need space to hop, chew toys, and regular grooming.</p>
+  </section>
+
+  <footer>
+    © 2025 Furry Friends | Designed by V.S. Sandhiya
+  </footer>
+
+</body>
+</html>
